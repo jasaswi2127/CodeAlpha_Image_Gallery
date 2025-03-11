@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery - By Jasaswi Behera</title>
+    <link rel="title icon" type="image/png" href="images/camera-icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Life Of An Autophile</h1>
+        <nav>
+          <a href="" id="menu-icon"></a> 
+          <ul>
+            <li><a href="#cars">Cars</a></li>
+            <li><a href="#bikes">Bikes</a></li>
+            <li><a href="#skyfighters">Skyfighters</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- End Header -->
+      <section>
+        <a name="cars"></a>
+        <h2>CARS</h2>
+        <div class="container">
+          <a href="car.1.jpg"><img src="C:\Users\JASASWI BEHERA\Desktop\images\car.1.jpg" alt="car1"></a>
+          <a href="car.2.jpg"><img src="C:\Users\JASASWI BEHERA\Desktop\images\car.2.jpg" alt="car2"></a>
+          <a href="car.3.jpg"><img src="C:\Users\JASASWI BEHERA\Desktop\images\car.3.jpg" alt="car3"></a>
+          <a href="car.4.jpg"><img src="C:\Users\JASASWI BEHERA\Desktop\images\car.4.jpg" alt="car4"></a>
+          <a href="car.5.jpg"><img src="C:\Users\JASASWI BEHERA\Desktop\images\car.5.jpg" alt="car5"></a>
+          <a href="car.6.jpg"><img src="C:\Users\JASASWI BEHERA\Desktop\images\car.6.jpg" alt="car6"></a>
+        </div>
+      </section>
+      <!-- End of cars Section -->
+      <section>
+          <a name="bikes"></a>
+          <h2>BIKES</h2>
+          <div class="container">
+              <a href="bike.1.jpg"><img src="C:\Users\JASASWI BEHERA\Desktop\images\bike.1.jpg" alt="bike1"></a>
+              <a href="bike.2.jpg"><img src="C:\Users\JASASWI BEHERA\Desktop\images\bike.2.jpg" alt="bike2"></a>
+              <a href="bike.3.jpg"><img src="C:\Users\JASASWI BEHERA\Desktop\images\bike.3.webp" alt="bike3></a>
+              <a href="bike.4.jpg"><img src="C:\Users\JASASWI BEHERA\Desktop\images\bike.4.jpg" alt="bike4"></a>
+              <a href="bike.5.jpg"><img src="C:\Users\JASASWI BEHERA\Desktop\images\bike.5.jpg" alt="bike5"></a>
+              <a href="bike.6.jpg"><img src="C:\Users\JASASWI BEHERA\Desktop\images\bike.6.jpg" alt="bike6"></a>
+          </div>
+      </section>
+      <!-- End of bikes Section -->
+      <section>
+          <a name="skyfighters"></a>
+          <h2>SKY FIGHTERS</h2>
+          <div class="container">
+              <a href="skyfighter.1.jpg"><img src="C:\Users\JASASWI BEHERA\Desktop\images\sky.1.jpg" alt="skyfighter1"></a>
+              <a href="skyfighter.2.jpg"><img src="C:\Users\JASASWI BEHERA\Desktop\images\sky.2.webp" alt="skyfighter2"></a>
+              <a href="skyfighter.3.jpg"><img src="C:\Users\JASASWI BEHERA\Desktop\images\sky.3.webp" alt="skyfighter3"></a>
+              <a href="skyfighter.4.jpg"><img src= "C:\Users\JASASWI BEHERA\Desktop\images\sky.4.webp"alt="skyfighter4"></a>
+              <a href="skyfighter.5.jpg"><img src="C:\Users\JASASWI BEHERA\Desktop\images\sky.5.webp" alt="skyfighter5"></a>
+              <a href="skyfighter.6.jpg"><img src="C:\Users\JASASWI BEHERA\Desktop\images\sky.6.jpg" alt="skyfighter6"></a>
+          </div>
+      </section>
+      <!-- End of skyfighters Section -->
+      <button onclick="goToTop()" id="topBtn" title="Go to top of page">Top of Page</button>
+      <footer class="footer">
+        <p>
+         - By Jasaswi Behera
+        </p>
+      </footer>
+    </div>
+    <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 4 || document.documentElement.scrollTop > 4) {
+            document.getElementById("topBtn").style.display = "block";
+        } else {
+            document.getElementById("topBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function goToTop() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+    </script>
+  </body>
+</html>
