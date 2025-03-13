@@ -13,5 +13,7 @@ script.js - Functionality for the image gallery.
 Click on the index.html file to open it in a web browser. Click through the different thumbnails at the bottom to preview the image.
 
 #Example
+![Screenshot 2025-03-13 133839](https://github.com/user-attachments/assets/5b808542-20d1-4461-a532-031d7b82513b)
+![Screenshot 2025-03-13 133825](https://github.com/user-attachments/assets/ee47e5d6-abd4-4b04-94bf-5413cca6abed)
+![Screenshot 2025-03-13 133803](https://github.com/user-attachments/assets/de794a8f-9dde-4fb1-b25a-35f725158b04)
 
-![Screenshot 2025-03-12 130506](https://github.com/user-attachments/assets/89dacfae-d419-417b-8b3b-24299148b276)
